@@ -30,7 +30,7 @@
                   jquery: '//code.jquery.com/jquery-2.1.4.min'
                 }
             });
-            require(['my-es6-modules/math', 'jquery'], function(math, $) {
+            require(['my-es6-modules/math/index', 'jquery'], function(math, $) {
               var numbers = [500, 1000, 500, 1000];
               var average = math.average(numbers);
               $('#info').append('<p> The average is: '+average+'</p>');

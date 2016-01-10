@@ -1,4 +1,4 @@
-
+import './bar';
 /* named export */
 
 export function average(numbers=[]) {
